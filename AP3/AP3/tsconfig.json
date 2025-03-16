@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "target": "ES6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"] // Exemplo de alias para importações
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"] // Inclua arquivos .ts
+}

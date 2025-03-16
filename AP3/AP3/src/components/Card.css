@@ -1,0 +1,31 @@
+/* src/components/Card.css */
+.card {
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%; /* Ocupa 100% do espaço disponível */
+    max-width: 300px; /* Define um tamanho máximo para o card */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
+  }
+  
+  .card.aprovado {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+  }
+  
+  .card.reprovado {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  p {
+    margin: 8px 0;
+  }
